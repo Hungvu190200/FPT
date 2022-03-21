@@ -1,0 +1,89 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.page_top {
+    position: relative;
+}
+
+.page_content {
+    background-image: url("../img/tintucchung/banner1.jpg");
+    background-size: cover;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background-repeat: no-repeat;
+}
+
+.page_content h2 {
+    text-transform: uppercase;
+    white-space: nowrap;
+    text-shadow: 0 1px 1px #000;
+}
+
+.page_bottom {
+    padding: 50px 0;
+}
+
+.page_bottom2 {
+    color: #000;
+    transition: 0.3s ease;
+}
+
+.page_bottom2:hover {
+    text-decoration: none;
+}
+
+.page_bottom2:hover {
+    opacity: 0.8;
+}
+
+.p12:hover {
+    text-decoration: none;
+    color: #f05123;
+}
+
+.nav-link {
+    margin-top: 20px;
+}
+
+.nav-link a {
+    padding: 5px 10px;
+    border: 1px solid #f05123;
+    color: #000;
+}
+
+.nav-link a:hover {
+    background: #f05123;
+    color: #fff;
+}
+
+.circle {
+    border-radius: 50%;
+}
+
+.circle i {
+    color: #f05123;
+}
+
+.circle i:hover {
+    color: #fff;
+}
+
+.nav-link_span {
+    padding: 5px 10px;
+    border: 1px solid #f05123;
+}
+
+.header1241 {
+    display: none;
+}
+
+@media screen and (max-width: 426px) {
+    .page_content {
+        height: 200px !important;
+    }
+}

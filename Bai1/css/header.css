@@ -1,0 +1,455 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    z-index: 1;
+}
+
+.header_top {
+    padding: 50px 0;
+}
+
+.header_top_left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header_top_right {
+    display: flex;
+}
+
+.search {
+    position: relative;
+    margin-right: 10px;
+}
+
+.search input {
+    padding: 5px 40px 5px 10px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+.search button {
+    position: absolute;
+    right: 0;
+    padding: 5px 10px;
+    background: #f05123;
+    border: 1px solid transparent;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.search button i {
+    font-size: 15px;
+}
+
+.header_bottom {
+    background: #f05123;
+    text-transform: uppercase;
+    line-height: 60px;
+    justify-content: center;
+}
+
+.nav1 {
+    display: flex;
+    justify-content: center;
+}
+
+.nav li {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    transition: 0.5s ease;
+    padding: 8px
+}
+
+.nav11 {
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.nav li:hover {
+    text-decoration: underline;
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.abc:hover {
+    color: #23527c;
+}
+
+.subnav1 {
+    position: relative;
+}
+
+.subnav1:hover .subnav_1 {
+    display: block;
+}
+
+.subnav_1 {
+    position: absolute;
+    width: 250%;
+    background: #fff;
+    left: 0;
+    padding: 0;
+    box-shadow: 0 3px 6px rgb(0 0 0 / 20%);
+    cursor: pointer;
+    display: none;
+}
+
+.subnav_1 li {
+    width: 100%;
+    list-style-type: none;
+}
+
+.subnav_1 a {
+    color: #404040;
+    text-transform: none;
+}
+
+.subnav11 {
+    position: relative;
+}
+
+.subnav11:hover .subnav_1_1 {
+    display: block;
+}
+
+.subnav_1_1 {
+    position: absolute;
+    top: 0;
+    left: 100%;
+    width: 100%;
+    padding: 0;
+    box-shadow: 0 3px 6px rgb(0 0 0 / 20%);
+    background: #fff;
+    display: none;
+}
+
+.subnav2 {
+    position: relative;
+}
+
+.subnav2 li {
+    list-style-type: none;
+}
+
+.subnav_2 {
+    position: absolute;
+    background: #fff;
+    width: 250%;
+    padding: 0;
+    box-shadow: 0 3px 6px rgb(0 0 0 / 20%);
+    display: none;
+}
+
+.subnav2:hover .subnav_2 {
+    display: block;
+}
+
+.subnav_2 a {
+    color: #404040;
+    text-transform: none;
+}
+
+.subnav3 {
+    position: relative;
+}
+
+.subnav_3 {
+    position: absolute;
+    background: #fff;
+    width: 250%;
+    padding: 0;
+    box-shadow: 0 3px 6px rgb(0 0 0 / 20%);
+    display: none;
+}
+
+.subnav3:hover .subnav_3 {
+    display: block;
+}
+
+.subnav3 li {
+    list-style-type: none;
+}
+
+.subnav_3 a {
+    color: #404040;
+    text-transform: none;
+}
+
+.subnav33 {
+    position: relative;
+}
+
+.subnav_3_3 {
+    position: absolute;
+    top: 0;
+    left: 100%;
+    width: 100%;
+    padding: 0;
+    box-shadow: 0 3px 6px rgb(0 0 0 / 20%);
+    background: #fff;
+    display: none;
+}
+
+.subnav33:hover .subnav_3_3 {
+    display: block;
+}
+
+.subnav34 {
+    position: relative;
+}
+
+.subnav3_4 {
+    position: absolute;
+    top: 0;
+    left: 100%;
+    width: 100%;
+    padding: 0;
+    box-shadow: 0 3px 6px rgb(0 0 0 / 20%);
+    background: #fff;
+    display: none;
+}
+
+.subnav34:hover .subnav3_4 {
+    display: block;
+}
+
+.subnav35 {
+    position: relative;
+}
+
+.subnav3_5 {
+    position: absolute;
+    top: 0;
+    left: 100%;
+    width: 100%;
+    padding: 0;
+    box-shadow: 0 3px 6px rgb(0 0 0 / 20%);
+    background: #fff;
+    display: none;
+}
+
+.subnav35:hover .subnav3_5 {
+    display: block;
+}
+
+.subnav4 {
+    position: relative;
+}
+
+.subnav_4 {
+    position: absolute;
+    background: #fff;
+    width: 150%;
+    padding: 0;
+    box-shadow: 0 4px 6px rgb(0 0 0 / 20%);
+    display: none;
+}
+
+.subnav4:hover .subnav_4 {
+    display: block;
+}
+
+.subnav4 li {
+    list-style-type: none;
+}
+
+.subnav_4 a {
+    color: #404040;
+    text-transform: none;
+}
+
+.subnav41 {
+    position: relative;
+}
+
+.subnav_4_1 {
+    position: absolute;
+    top: 0;
+    left: 100%;
+    width: 100%;
+    padding: 0;
+    box-shadow: 0 3px 6px rgb(0 0 0 / 20%);
+    background: #fff;
+    display: none;
+}
+
+.subnav41:hover .subnav_4_1 {
+    display: block;
+}
+
+.subnav42 {
+    position: relative;
+}
+
+.subnav_4_2 {
+    position: absolute;
+    top: 0;
+    left: 100%;
+    width: 100%;
+    padding: 0;
+    box-shadow: 0 3px 6px rgb(0 0 0 / 20%);
+    background: #fff;
+    display: none;
+}
+
+.subnav42:hover .subnav_4_2 {
+    display: block;
+}
+
+.subnav43 {
+    position: relative;
+}
+
+.subnav_4_3 {
+    position: absolute;
+    top: 0;
+    left: 100%;
+    width: 100%;
+    padding: 0;
+    box-shadow: 0 3px 6px rgb(0 0 0 / 20%);
+    background: #fff;
+    display: none;
+}
+
+.subnav43:hover .subnav_4_3 {
+    display: block;
+}
+
+.subnav44 {
+    position: relative;
+}
+
+.subnav_4_4 {
+    position: absolute;
+    top: 0;
+    left: 100%;
+    width: 100%;
+    padding: 0;
+    box-shadow: 0 3px 6px rgb(0 0 0 / 20%);
+    background: #fff;
+    display: none;
+}
+
+.subnav44:hover .subnav_4_4 {
+    display: block;
+}
+
+.subnav45 {
+    position: relative;
+}
+
+.subnav_4_5 {
+    position: absolute;
+    top: 0;
+    left: 100%;
+    width: 100%;
+    padding: 0;
+    box-shadow: 0 3px 6px rgb(0 0 0 / 20%);
+    background: #fff;
+    display: none;
+}
+
+.subnav45:hover .subnav_4_5 {
+    display: block;
+}
+
+.subnav5 {
+    position: relative;
+}
+
+.subnav_5 {
+    position: absolute;
+    background: #fff;
+    width: 350%;
+    padding: 0;
+    box-shadow: 0 4px 6px rgb(0 0 0 / 20%);
+    display: none;
+}
+
+.subnav5:hover .subnav_5 {
+    display: block;
+}
+
+.subnav5 li {
+    list-style-type: none;
+}
+
+.subnav_5 a {
+    color: #404040;
+    text-transform: none;
+}
+
+.subnav51 {
+    position: relative;
+}
+
+.subnav_5_1 {
+    position: absolute;
+    top: 0;
+    left: 100%;
+    width: 100%;
+    padding: 0;
+    box-shadow: 0 3px 6px rgb(0 0 0 / 20%);
+    background: #fff;
+    display: none;
+}
+
+.subnav51:hover .subnav_5_1 {
+    display: block;
+}
+
+.subnav6 {
+    position: relative;
+}
+
+.subnav_6 {
+    position: absolute;
+    background: #fff;
+    width: 200%;
+    padding: 0;
+    box-shadow: 0 4px 6px rgb(0 0 0 / 20%);
+    display: none;
+}
+
+.subnav6:hover .subnav_6 {
+    display: block;
+}
+
+.subnav6 li {
+    list-style-type: none;
+}
+
+.subnav_6 a {
+    color: #404040;
+    text-transform: none;
+}
+
+.Menu_bar {
+    display: none;
+}
+
+.Menu_bar1 {
+    display: none;
+}
+
+.fl-align {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+/* -------------------------responsive----------------------------- */
+
+
+/* -------------tablet L----------------- */

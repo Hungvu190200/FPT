@@ -1,0 +1,81 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.page_bottom156 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.page_bottom1_top h2 {
+    text-align: center;
+}
+
+.iinput {
+    display: flex;
+    flex-direction: column;
+}
+
+.iinput input {
+    padding: 5px 10px;
+    outline: none;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.iinput select {
+    padding: 5px 10px;
+    outline: none;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.iinput label {
+    color: #000;
+    font-weight: bold;
+}
+
+.iiiiput {
+    display: flex;
+}
+
+.iinput1_1 {
+    padding: 5px 10px;
+}
+
+.iinput1 label {
+    font-weight: bold;
+}
+
+.buuu_ton button {
+    padding: 5px 10px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    font-weight: bold;
+    color: #fff;
+    background: #f05123;
+    text-transform: uppercase;
+}
+
+.buuu_ton button:hover {
+    opacity: 0.8;
+}
+
+@media screen and (max-width: 426px) {
+    .page_content {
+        height: 300px;
+    }
+    h2 {
+        font-size: inherit;
+    }
+    .iinput {
+        width: 50%;
+    }
+    .buuu_ton {
+        padding: 30px 0;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+}

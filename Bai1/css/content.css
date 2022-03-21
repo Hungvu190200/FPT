@@ -1,0 +1,249 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+p {
+    font-size: 15px;
+}
+
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.content1_1 {
+    background: #f05122;
+    background-image: linear-gradient(#f05122, #f4772e);
+}
+
+.title-01 {
+    color: #fff;
+    text-align: center;
+}
+
+.title-01 h2 {
+    font-size: 25px;
+    font-weight: 400;
+    padding: 50px 0 30px 0;
+}
+
+.h2 {
+    color: #fff;
+}
+
+.p1 {
+    font-size: 15px;
+    color: #333;
+    font-weight: bold;
+}
+
+.title-02 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.title-02 img {
+    width: 50%;
+}
+
+.content_2 {
+    padding: 50px 0 30px 0;
+}
+
+.content_2 h1 {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    color: #f05123;
+    text-align: center;
+}
+
+.content_2_1 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.content_2_2 a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-decoration: none;
+}
+
+.support {
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1p solid transparent;
+}
+
+.support .p3:hover {
+    color: #f05123;
+    text-decoration: none;
+}
+
+.support img:hover {
+    opacity: 0.8;
+}
+
+.support p {
+    padding: 10px;
+    color: #000;
+}
+
+.p4 {
+    opacity: 0.7;
+    font-style: italic;
+}
+
+.navvbar:hover {
+    text-decoration: underline;
+    text-decoration-color: #000;
+}
+
+.navvbar_main {}
+
+.navvbar_main a {
+    text-decoration: none;
+}
+
+.navvbar {
+    padding: 15px;
+    background: #ededed;
+}
+
+.navvbar1 {
+    color: #000;
+}
+
+.navvbar1 i {
+    color: rgb(247, 38, 38);
+}
+
+hr {
+    margin: 0;
+}
+
+.content_3 {
+    padding: 50px 0 30px 0;
+}
+
+.content_3 h1 {
+    display: flex;
+    justify-content: center;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    color: #f05123;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.content_3_supt {
+    display: none;
+}
+
+.bottom {
+    display: flex;
+    justify-content: center;
+}
+
+.bottom a {
+    padding: 5px 10px;
+    border: 1px solid #f05123;
+    color: #f05123;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 3px;
+    transition: 0.2s ease;
+}
+
+.bottom a:hover {
+    color: #fff;
+    background: #f05123;
+}
+
+.content_4 {
+    background-color: #736b95;
+    background-image: linear-gradient(#736b95, #f05122);
+    display: flex;
+    flex-direction: row;
+}
+
+.content_4 h2 {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    margin: 50px 0;
+}
+
+.content_4_2 a {
+    text-decoration: none;
+    transition: 0.2s ease;
+}
+
+.content_4_0 {
+    display: none;
+}
+
+.content_4_2 img:hover {
+    opacity: 0.8;
+}
+
+.ima11 {}
+
+.carrt {
+    background: #fff;
+    padding: 10px;
+    color: #000;
+}
+
+.carrt p {
+    opacity: 0.7;
+    margin-top: 15px;
+}
+
+.bottom1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0;
+}
+
+.bottom1 a {
+    border: 1px solid #fff;
+    font-weight: bold;
+    padding: 5px 10px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.2s easesupport;
+}
+
+.bottom1 a:hover {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.right12 {
+    display: flex;
+    padding: 30px 0;
+}
+
+.right12 img {
+    border-radius: 50%;
+}
+
+.righttt h5 {
+    color: #f05123;
+}
+
+.righttt {
+    margin-left: 20px;
+}
+
+.righttt h6 {
+    color: #f05123;
+}
+
+.content_5_1 img {
+    border-radius: 50%;
+}
